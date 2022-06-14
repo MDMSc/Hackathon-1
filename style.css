@@ -1,0 +1,108 @@
+body, html {
+    background-color: rgba(243, 227, 164, 0.897);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+#div-head {
+    padding: none;
+    height: 200px;
+    background-image: url("https://images8.alphacoders.com/413/413078.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200px; 
+    position: relative;
+}
+
+#div-head h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+.searchWrapper {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    left: 60%;
+    top: 140px;
+}
+
+.searchWrapper #search-bar {
+    background-color: rgba(245, 245, 245, 0.151);
+    color: white;
+    height: 32px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#div-content {
+    padding: 0px;
+}
+
+.div-list {
+    background: linear-gradient(90deg, rgb(222, 215, 215), rgba(187, 130, 38, 0.788));
+    margin: none;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0px 20px 0px;
+    background-color: transparent;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+.card .card-header{
+    position: auto;
+    height: 80px;
+    text-align:left;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: rgba(230, 229, 229, 0.828);
+}
+
+.card-header span {
+    position: inherit;
+    font-size: 1.5vw;
+    font-weight: bold;
+    resize: both;
+    word-wrap: break-word;
+}
+
+.card .card-body{
+    font-size: 1vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    border: none;
+    height: 80px;
+}
+
+@media (max-width: 650px) {
+    #div-head h1 {
+        font-size: 30px;
+    }
+} 
